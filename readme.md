@@ -16,7 +16,7 @@ $ npm install
 $ gulp
 ```
 
-## Overview
+### Overview
 
 Saving any file in the following directories will run the corresonding gulp tasks that manage compiling, optimization, and browser refreshing/syncing.
 
@@ -28,11 +28,11 @@ Saving any file in the following directories will run the corresonding gulp task
 
 And, with the awesomeness that is browserysync, you can visit your **External URL** from any device on the network and it will update _that_ device's browser with the new assets. You can even scroll on one device or click on a link, and all devices will follow. It's black magic.
 
-## Where Files Are
+### Where Files Are
 
 All gulp tasks are saved as separate files in `[root]/gulp`. All assets are saved within `app/assets`.
 
-## For Development
+### For Development
 
 ```bash
 $ gulp
@@ -40,7 +40,7 @@ $ gulp
 
 The above command will compile all your assets and start up BrowserSync. From there, you can make updates to any of the folders being watched and the gulp tasks will take care of everything else. It serves via proxy http://homestead.app:8000 and makes it accessible at http://localhost:3000.
 
-## For Production
+### For Production
 
 ```bash
 $ gulp production
