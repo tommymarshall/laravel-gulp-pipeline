@@ -30,13 +30,17 @@ And, with the awesomeness that is browserysync, you can visit your **External UR
 
 ## For Development
 
-**Command: ** `gulp`
+```bash
+$ gulp
+```
 
 The above command will compile all your assets and start up BrowserSync. From there, you can make updates to any of the folders being watched and the gulp tasks will take care of everything else. It serves via proxy http://homestead.app:8000 and makes it accessible at http://localhost:3000.
 
 ## For Production
 
-**Command: ** `gulp production`
+```bash
+$ gulp production
+```
 
 Does all the same things `gulp watch`, without BrowserSyncing, and adds minification. It also does the file rev'ing and creates a manifest file which is then used via the `asset_path()` function in `app/helpers.php`.
 
@@ -53,5 +57,5 @@ To compile to:
 
 ```html
 <link href="/assets/app-90d1132a.css" rel="stylesheet">
-<img src="/assets/logo-4c2e07e0.png" alt="">
+<img src="/assets/logo-4c2e07e0.png" alt="Logo">
 ```

@@ -8,7 +8,7 @@
 <body>
 
 	<div class="container">
-		<img src="{{ asset_path('logo.png') }}" alt="">
+		<img src="{{ asset_path('logo.png') }}" alt="Logo">
 		<h1>Hello :)</h1>
 		<p>Saving any file in the following directories will run the corresonding gulp tasks that manage compiling, optimization, and browser refreshing/syncing.</p>
 		<ul class="code-list">
