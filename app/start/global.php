@@ -79,3 +79,15 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Require The Helpers File
+|--------------------------------------------------------------------------
+|
+| Includes the asset_path helper which references rev'd files and
+| their corresponding path.
+|
+*/
+
+require app_path().'/helpers.php';

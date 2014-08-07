@@ -1,0 +1,16 @@
+
+// Base Page Sizes
+
+$base-font-size   : 14px
+$base-line-height : (18px / $base-font-size)
+
+
+// Layout and Grid
+
+$total-columns   : 12
+$grid-max-width  : 1860px
+$page-min-width  : 1000px
+$page-max-width  : 1860px
+$column-gutter   : 0%
+$column-width    : (100 - ($column-gutter * ($total-columns - 1) ) ) / $total-columns
+$span-real-width : round($grid-max-width * ($column-width / 100%))
