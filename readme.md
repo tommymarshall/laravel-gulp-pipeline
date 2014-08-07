@@ -10,8 +10,10 @@
 
 Clone the repo, then:
 
-`composer install`
-`npm install`
-`gulp`
+```bash
+composer install
+npm install
+gulp
+```
 
 This will open your browser and serve (via proxy) http://homestead.app:8000.
