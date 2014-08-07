@@ -19,21 +19,7 @@
 			<li><span>app/views</span></li>
 		</ul>
 		<p>
-			And, with the awesomeness that is browserysync, you can visit your <strong>External URL</strong> from any device on the network and it will update <em>that</em> device's browser with the new assets. You can even scroll on one device or click on a link, and all devices will follow. It's black magic.
-		</p>
-		<h2>For Development</h2>
-		<p>
-			<strong>Command: </strong> <code>gulp</code>
-		</p>
-		<p>
-			The above command will compile all your assets and start up BrowserSync. From there, you can make updates to any of the folders being watched and the gulp tasks will take care of everything else.
-		</p>
-		<h2>For Production</h2>
-		<p>
-			<strong>Command: </strong> <code>gulp production</code>
-		</p>
-		<p>
-			Does all the same things <code>gulp watch</code>, minus the BrowserSync stuff. It also does the file rev'ing and creates a manifest file which is then used via the <code>asset_path()</code> function in <code>app/helpers.php</code>.
+			Go ahead. Give it a try.
 		</p>
 	</div>
 
